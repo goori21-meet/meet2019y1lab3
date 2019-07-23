@@ -3,5 +3,6 @@ print (person_one)
 person_two = input("What is the age of the second person")
 print (person_two)
 
-age_di=abs (int(person_one)-int(person_two))
+age_di=abs (float(person_one)-float(person_two))
 print ("the age diffrence is "+str(age_di)+" years")
+
